@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Security Services</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Left Section -->
+      <div class="left-section">
+        <h1 id="detail-title">Security Services</h1>
+        <p id="detail-description">
+          Security is not merely a service; it's a commitment to safeguarding
+          the well-being of our clients, their assets, and the environments in
+          which they operate. At Al waseet, the essence of Security Services
+          transcends conventional protection - it embodies a profound dedication
+          to vigilance, adaptability, and proactive risk mitigation.
+        </p>
+        <button class="offer-button">An Offer</button>
+        <div class="navigation-arrows">
+          <span>&larr;</span>
+          <span>&rarr;</span>
+        </div>
+      </div>
+
+      <!-- Right Section (Cards) -->
+      <div class="right-section">
+        <div
+          class="card"
+          onclick="showDetails('security-service.jpg', 'Security Services', 'Comprehensive security services description.')"
+        >
+          <img src="security-service.jpg" alt="Security Services" />
+          <h2>Security Services</h2>
+        </div>
+        <div
+          class="card"
+          onclick="showDetails('crowd-management.jpg', 'Crowd Management', 'Expert crowd management services description.')"
+        >
+          <img src="crowd-management.jpg" alt="Crowd Management" />
+          <h2>Crowd Management</h2>
+        </div>
+        <div
+          class="card"
+          onclick="showDetails('vale.jpg', 'VALE', 'Specialized VALE services description.')"
+        >
+          <img src="/vale.jpg" alt="VALE" />
+          <h2>VALE</h2>
+        </div>
+      </div>
+    </div>
+
+    <script src="/script.js"></script>
+  </body>
+</html>
