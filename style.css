@@ -14,7 +14,7 @@ body {
   min-height: 100vh;
   position: relative;
   transition: background-image 0.5s ease;
-  background-image: url(/security-service.jpg);
+  background-image: url(TEST/security-service.jpg);
 }
 
 .container {
